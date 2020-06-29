@@ -18,11 +18,11 @@ body{
 }
 
 img {
-    width: 95px;
+    width: 500px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
-    margin: 0 auto;
+    margin: 0 0;
     display: block;
   }
 
