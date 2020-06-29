@@ -1,0 +1,17 @@
+# Projects
+
+# Nutrition Facts
+- project: Nutrition Facts
+  # url: "#"
+  description: Built website backed by Flask and Python that allows user to search nutrition facts for food products. It uses Tesseract to extract nutritional information from user-uploaded images of nutrition fact panels to store in MySQL database.
+
+
+# ImgAnalysis
+- project: ImgAnalysis
+  # url: "#"
+  description: Created open source library written in pure Java to recognize key elements in images to compare similarity between images.
+
+# Herario Toolbox
+- project: Herario Toolbox
+  # url: "#"
+  description: Wrote Excel Add-In Suite that increases user productivity by offering various tools to analyze and sort data.
