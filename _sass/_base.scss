@@ -17,6 +17,15 @@ body{
   line-height: 1.5;
 }
 
+img {
+    width: 95px;
+    max-width: 100%;
+    overflow: hidden;
+    @include border-radius(100px);
+    margin: 0 auto;
+    display: block;
+  }
+
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
