@@ -21,8 +21,8 @@ img {
     width: 500px;
     max-width: 100%;
     overflow: hidden;
-    @include border-radius(100px);
-    margin: 0 0;
+    @include border-radius(0px);
+    margin: 10px 0;
     display: block;
   }
 
