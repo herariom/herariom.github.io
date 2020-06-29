@@ -3,7 +3,7 @@
 # Nutrition Facts
 - project: Nutrition Facts
   url: "https://github.com/herariom/NutritionFacts"
-  description: Built website backed by Flask and Python that allows user to search nutrition facts for food products. It uses Tesseract to extract nutritional information from user-uploaded images of nutrition fact panels to store in MySQL database. <img src="test.PNG">
+  description: Built website backed by Flask and Python that allows user to search nutrition facts for food products. It uses Tesseract to extract nutritional information from user-uploaded images of nutrition fact panels to store in MySQL database. <img src="test.PNG"> <img src="test2.PNG"> <img src="test3.PNG">
 
 
 # ImgAnalysis
