@@ -8,8 +8,8 @@
 
 # ImgAnalysis
 - project: ImgAnalysis
-  # url: "#"
-  description: Created open source library written in pure Java to recognize key elements in images to compare similarity between images.
+  url: "https://github.com/herariom/ImgAnalysis"
+  description: Created open source library written in pure Java to recognize key elements in images to compare similarity between images. <img src="imganalysis1.PNG">
 
 # Herario Toolbox
 - project: Herario Toolbox
