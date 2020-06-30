@@ -9,7 +9,7 @@
 # ImgAnalysis
 - project: ImgAnalysis
   url: "https://github.com/herariom/ImgAnalysis"
-  description: Created open source library written in pure Java to recognize key elements in images to compare similarity between images. <img src="imganalysis1.PNG">
+  description: ImgAnalysis is a proof of concept image recognition library written in pure Java. It uses the depth first search algorithm to find similarly colored fragments in the main image that can be compared with the subject image to detect how similar the two images are. <img src="imganalysis1.PNG">
 
 # Herario Toolbox
 - project: Herario Toolbox
