@@ -1,0 +1,35 @@
+baseURL: https://herariom.com
+languageCode: en-us
+title: Herariom
+theme: "PaperMod"
+
+params:
+    profileMode:
+        enabled: true
+        title: "Logan Johnson"
+        subtitle: "Fourth-year Computer Science student at NCSU. I enjoy programming, rock climbing, and racing simulators."
+    socialIcons:
+        - name: github
+          url: "https://github.com/herariom"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/logan-johnson-297939191/"
+        - name: twitter
+          url: "https://twitter.com/herariom_"
+        - name: email
+          url: "mailto:ljohns22@ncsu.edu"
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Projects
+                  url: projects
+                  weight: 1
+                - name: Articles
+                  url: articles
+                  weight: 2
+                - name: Resume
+                  url: https://herariom.com/resume.pdf
+                  weight: 3
