@@ -7,12 +7,12 @@ searchHidden: true
 ShowBreadCrumbs: false
 weight: 1
 ---
-A website that helps users find the perfect city to live and work in
+A website that helps users find the perfect location for their next home or apartment
 <!--more-->
 ## Background
-Ryoko is a website designed to determine best places to live based on various characteristic preferences such as population, density, and distance from given coordinates.
+Ryoko is a website designed to determine the best places to live. It has a comparison tool that allows the user to input a list of homes/apartments they are looking at and the locations that regularly travel (work, school, gym, friends). For each location, they can put in the frequency and mode of travel.
 
-Ryoko is a shortening of the Japanese word "ryokou," which means "travel". The name was chosen because the website is designed to help users find the best place to travel to, and because the alternative was "City Finder."
+Then, users can generate statistics for each home/apartment to see which one they like best based on the ease, distance, and total time traveled per week! Ryoko also has a city finder tool to search the most popular U.S. cities by preferences, including total population, population density, and distance from given coordinates.
 
 ## Technologies
 
@@ -22,13 +22,19 @@ Ryoko is built using the following technologies:
 * [PostgreSQL](https://www.postgresql.org/)
 * [Docker](https://www.docker.com/)
 
+APIs utilized:
+* Ease of travel information provided by [Walk Score API](https://www.walkscore.com/professional/api.php).
+* Distance and time traveled information provided by [Google Maps API](https://developers.google.com/maps)
+* City information provided by [simplemaps](https://simplemaps.com/data/us-cities)
+
 ## Features
 
-After filtering cities based on preferences such as total population or given coordinates, users can then click on each city to get a dashboard that allows them to view jobs, housing, and other information about the city. This includes information about the walkability, bikeability, and public transportation offered by the city. This is provided by the [Walk Score API](https://www.walkscore.com/professional/api.php).
+* Home/apartment comparison tool
+* City search
 
 ## Demo
 
-In the future, I plan to host a demo of the website on Heroku. Until then, you can use the website locally by cloning the Git [repository](https://github.com/herariom/ryoko) and running the command `docker compose up` in the root directory.
+Check it out at [ryoko.herariom.com](https://ryoko.herariom.com)!
 
 {{< css.inline >}}
 
