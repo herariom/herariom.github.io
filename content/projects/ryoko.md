@@ -10,9 +10,10 @@ weight: 1
 A website that helps users find the perfect location for their next home or apartment
 <!--more-->
 ## Background
-Ryoko is a website designed to determine the best places to live. It has a comparison tool that allows the user to input a list of homes/apartments they are looking at and the locations that regularly travel (work, school, gym, friends). For each location, they can put in the frequency and mode of travel.
+Ryoko is a website designed to determine the best places to live. It has a comparison tool that allows users to input a list of homes/apartments they are looking at and the places they travel throughout the week. For each place they commute to, they can input the frequency they go there and the mode of travel (driving, walking, etc.)
 
-Then, users can generate statistics for each home/apartment to see which one they like best based on the ease, distance, and total time traveled per week! Ryoko also has a city finder tool to search the most popular U.S. cities by preferences, including total population, population density, and distance from given coordinates.
+
+Then, users can generate metrics for each home/apartment to see which one they like best based on the ease of travel, time spent traveling, and the total distance traveled per week. Ryoko also has a city finder tool to search the most popular U.S. cities by preferences, including total population, population density, and distance from a set of given coordinates.
 
 ## Technologies
 
@@ -22,15 +23,10 @@ Ryoko is built using the following technologies:
 * [PostgreSQL](https://www.postgresql.org/)
 * [Docker](https://www.docker.com/)
 
-APIs utilized:
-* Ease of travel information provided by [Walk Score API](https://www.walkscore.com/professional/api.php).
-* Distance and time traveled information provided by [Google Maps API](https://developers.google.com/maps)
-* City information provided by [simplemaps](https://simplemaps.com/data/us-cities)
-
-## Features
-
-* Home/apartment comparison tool
-* City search
+**Powered by:**
+* [Walk Score API](https://www.walkscore.com/professional/api.php) for ease of travel data
+* [Google Maps API](https://developers.google.com/maps) for distance and time traveled metrics 
+* [simplemaps](https://simplemaps.com/data/us-cities) for city information
 
 ## Demo
 

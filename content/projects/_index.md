@@ -1,5 +1,5 @@
 ---
 title: Projects
-summary: Contains writeups of projects that I have made or am currently working on
-description: Contains writeups of projects that I have made or am currently working on
+summary: Contains write-ups of projects that I have made or am currently working on
+description: Contains write-ups of projects that I have made or am currently working on
 ---

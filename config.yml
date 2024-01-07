@@ -7,7 +7,7 @@ params:
     profileMode:
         enabled: true
         title: "Logan Johnson"
-        subtitle: "Fourth-year Computer Science student at NCSU. I enjoy programming, rock climbing, and racing simulators."
+        subtitle: "Software Engineer at Fidelity Investments (and recent NCSU graduate). I enjoy programming, rock climbing, and racing simulators."
     socialIcons:
         - name: github
           url: "https://github.com/herariom"

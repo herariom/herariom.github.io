@@ -10,7 +10,10 @@ weight: 3
 A music-based journaling hackathon project
 <!--more-->
 ## Background
-I signed up for HackDuke 2020 with some random teammates. We chose the Health track, and decided to make an application that would help identify songs that gave people certain emotions. We played a random song from the user's previously listened to songs on Spotify, and had them fill out a form before and after listening to it, tracking their mood changes. Afterwards, users can view how others reacted to the same song.
+I signed up for HackDuke 2020, a hackathon focused on designing solutions to make a positive social impact. We could choose from four tracks to focus our solution on. The first was inequality, energy and environment, health, and education. My team chose the health track centered around using health data to improve the quality, efficiency, and accessibility of health care and knowledge.
+
+We decided to make a music-based journaling application utilizing users' Top 100 songs on Spotify. The app would choose a random song from the users' Top 100, and then the user would fill out a form before and after the song played, tracking their mood changes. Afterward, users can view how others reacted to the same song using a graph of commonly felt emotions.
+
 ## Technologies
 
 SpotJournal is built using the following technologies:
